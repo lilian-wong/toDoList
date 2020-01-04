@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    line-height: 2;
+    margin: 0;
+}
+
+main{
+    margin: 20px;
+}
+
+.completed{
+    text-decoration: line-through;
+}

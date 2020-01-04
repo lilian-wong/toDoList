@@ -1,0 +1,29 @@
+<!-- Simple Dynamic To Do List using JavaScript -->
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <meta charset ="utf-8">
+        <meta name ="description" content="To do List">
+        <meta name ="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <title>To Do List</title>
+    </head>
+    <body>
+        <main>
+            <form id="toDoList-form">
+                <fieldset>
+                    <legend>To Do List</legend>
+                <input type ="textbox" id="newItemText" required>
+                <button type="submit" id="addNew-btn">Add New Item</button><br> 
+                <section id="itemLists">
+                <input type="checkbox" id = 1 name="item" value="Walk the Dog" ><span >Walk the Dog</span></br>
+                <input type="checkbox" id = 2 name="item" value="Get starbucks" checked="true"><span class="completed">Get starbucks</span></br>
+                <input type="checkbox" id = 3 name="item" value="Buy socks" checked="true"><span class="completed">Buy socks</span></br>
+                </section>
+            </fieldset>
+            </form>
+        </main>
+    </body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/node-uuid/1.4.8/uuid.js"></script>
+    <script src="index.js"></script>
+</html>
