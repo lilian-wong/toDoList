@@ -84,6 +84,7 @@ function watchPage(){
     document.getElementById('addNew-btn').addEventListener('click',function(event){
         event.preventDefault();
         let newItem = document.getElementById('newItemText').value;
+        //print error message if the input field is blank
         if(newItem!=''){
         addItem(newItem);
         }
